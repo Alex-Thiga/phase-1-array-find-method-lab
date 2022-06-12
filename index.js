@@ -1,6 +1,6 @@
 // code your solution here
 function superbowlWin ( arrayName )
 {
-    const result = arrayName.find( arrayName => arrayName.result === 'W' )
-    return !!result ? result.year : undefined
+    const displayFindings = arrayName.find( arrayName => arrayName.result === 'W' )
+    return !!displayFindings ? displayFindings.year : undefined
 }
